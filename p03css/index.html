@@ -23,22 +23,57 @@
       font-family: arial, sans-serif;
       border-collapse: collapse;
       width: 100%;
+      cursor: pointer;
     }
 
-    td,
-    th {
+    td {
       border: 1px solid black;
       text-align: left;
       padding: 8px;
+      /* background-color: bisque; */
+    }
+    th {
+      background-color: aquamarine;
+      border: 1px solid black;
+      text-align: left;
+      padding: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    th:hover {
+      background-color: blue;
+      color: aliceblue;
+    }
+    tr {
+      background-color: bisque;
+      transition: 0.2s;
+      background-color: rgb(0, 255, 0);
+    }
+    tr:hover {
+      background-color: azure;
     }
 
     tr:nth-child(even) {
-      background-color: #dddddd;
+      background-color: #0bddec;
+      transition: 0.2s;
+    }
+    tr:nth-child(even):hover {
+      background-color: #bb0bec;
+      color: aliceblue;
+    }
+    .delete {
+      background-color: red;
+      color: rgb(246, 242, 242);
+      transition: 0.2s;
+    }
+    .delete:hover {
+      background-color: blue;
+      transform: scale(1);
     }
   </style>
   <body>
     <a href="../index.html"><== Kembali</a>
-    <h1>My Best 10 Friends</h1>
+    <h1>My Best 5 Friends</h1>
     <h2>Sepriyan Gunawan</h2>
     <h2>41215746</h2>
 
@@ -53,61 +88,31 @@
         <td>1</td>
         <td>Marsus Brahma Suzeta</td>
         <td>Indaramayu</td>
-        <td>Edit | aksi</td>
+        <td class="delete">Hapus</td>
       </tr>
       <tr>
         <td>2</td>
         <td>Dewi Srikandi Wiharta</td>
         <td>Cirebon</td>
-        <td>Edit | aksi</td>
+        <td class="delete">Hapus</td>
       </tr>
       <tr>
         <td>3</td>
         <td>Siti Salmatunnisa</td>
         <td>Indaramayu</td>
-        <td>Edit | aksi</td>
+        <td class="delete">Hapus</td>
       </tr>
       <tr>
         <td>4</td>
         <td>Rizal Dwi Rizki</td>
         <td>Indaramayu</td>
-        <td>Edit | aksi</td>
+        <td class="delete">Hapus</td>
       </tr>
       <tr>
         <td>5</td>
         <td>Nuzlatul Hidayah</td>
         <td>Indaramayu</td>
-        <td>Edit | aksi</td>
-      </tr>
-      <tr>
-        <td>6</td>
-        <td>Ade Safira</td>
-        <td>Cirebon</td>
-        <td>Edit | aksi</td>
-      </tr>
-      <tr>
-        <td>7</td>
-        <td>Fery Hidayat</td>
-        <td>Indaramayu</td>
-        <td>Edit | aksi</td>
-      </tr>
-      <tr>
-        <td>8</td>
-        <td>Rizki Ramadani</td>
-        <td>Ciamis</td>
-        <td>Edit | aksi</td>
-      </tr>
-      <tr>
-        <td>9</td>
-        <td>Agnes Rosmery</td>
-        <td>Majalengka</td>
-        <td>Edit | aksi</td>
-      </tr>
-      <tr>
-        <td>10</td>
-        <td>Bagus Hermawan</td>
-        <td>Cirebon</td>
-        <td>Edit | aksi</td>
+        <td class="delete">Hapus</td>
       </tr>
     </table>
   </body>
