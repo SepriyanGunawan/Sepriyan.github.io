@@ -1,0 +1,108 @@
+body {
+  background-color: aqua;
+}
+
+.utama {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.kertas {
+  width: 700px;
+  background-color: white;
+  margin: 0 auto;
+  padding: 20px;
+  height: 100%;
+  border: solid 2px rgb(0, 157, 255);
+}
+
+.pembungkus-kop {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 80;
+  height: 80px;
+}
+
+.Sekolah-Tinggi {
+  margin-top: 0;
+  font-size: 11px;
+}
+
+.nama-instansi {
+  display: flex;
+}
+
+.STMIK {
+  letter-spacing: 10px;
+  line-height: 40px;
+  font-size: 60px;
+  font-weight: bolder;
+  color: #eb1515;
+}
+
+.IKMI {
+  font-size: 32px;
+  line-height: 20px;
+  font-weight: bold;
+  color: #0000ff;
+  letter-spacing: 7px;
+}
+
+.CIREBON {
+  line-height: 30px;
+  font-size: 18px;
+  letter-spacing: 2.8px;
+  font-weight: bold;
+  color: #10a110;
+}
+
+.alamat-kampus div {
+  letter-spacing: 2px;
+  font-size: 11px;
+  margin-left: 20px;
+  font-weight: 700;
+}
+
+.alamat-kampus a {
+  color: #0000ff;
+}
+
+.pembungkus-SK {
+  display: flex;
+  width: 100%;
+  margin-top: 8px;
+}
+
+.sk {
+  background-color: #a52a2a;
+  width: 55%;
+  text-align: center;
+  padding: 2px 0px;
+  color: white;
+}
+
+.Terakreditasi {
+  background-color: #169f16;
+  text-align: center;
+  width: 45%;
+  color: white;
+  padding: 2px 0px;
+}
+
+.surat-tugas {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.surat {
+  font-size: 22px;
+  font-size: 22px;
+  letter-spacing: 3px;
+  text-decoration: underline;
+}
