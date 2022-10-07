@@ -68,7 +68,7 @@ button:hover {
   background-color: rgb(0, 102, 255);
   color: aliceblue;
 }
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 640px) {
   h1 {
     font-size: 20px;
   }
@@ -86,6 +86,45 @@ button:hover {
 
   .jenjang {
     float: left;
-    margin-left: -120px;
+    margin-left: -100px;
+    width: 100px;
+  }
+  .datapribadi input[type='text'],
+  textarea {
+    width: 90%;
+  }
+  .fromnama input {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 240px) {
+  h1 {
+    font-size: 20px;
+  }
+  body {
+    font-size: 8px;
+  }
+
+  form {
+    width: auto;
+    /* border: solid 1px black; */
+  }
+  button {
+    width: 100%;
+  }
+
+  .jenjang {
+    float: left;
+    margin-left: -80px;
+    width: 100px;
+  }
+  .datapribadi input {
+    width: 80%;
+  }
+  .fromnama input {
+    width: 80%;
+  }
+  .pendidikanT input[type='text'] {
+    width: 80%;
   }
 }

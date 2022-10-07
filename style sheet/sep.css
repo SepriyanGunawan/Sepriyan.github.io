@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: aqua;
+}
+
+ul {
+  text-align: center;
+  margin-top: 15px;
+}
+
+ul li {
+  display: inline;
+  padding-right: 30px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(255, 9, 185);
+}
+
+.muncul {
+  display: block;
+  padding: 50px;
+  box-shadow: #76f11291 0px 1px 8px;
+}
+.hilang {
+  display: none;
+}
