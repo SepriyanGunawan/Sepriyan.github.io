@@ -4,73 +4,63 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pemrograman Web Dasar</title>
-    <style>
-      a {
-        text-decoration: none;
-      }
-      p {
-        margin-left: 30px;
-      }
-      h1 {
-        color: #ff4747;
-        cursor: pointer;
-        transition: 0.3s;
-        margin-left: 50px;
-      }
-      h1:hover {
-        letter-spacing: 10px;
-        color: aqua;
-      }
-      img {
-        width: 200px;
-        border: solid lawngreen 2px;
-        border-radius: 50%;
-        background: salmon;
-        margin: 20px;
-      }
-      img:hover {
-        transform: scale(1.2);
-        opacity: 100%;
-        box-shadow: 3px 3px 10px #0999ec;
-      }
-      button {
-        width: 200px;
-        background-color: #e9d70f;
-        border-radius: 20px;
-        padding: 10px;
-        margin: 20px 30px;
-      }
-      button:hover {
-        background-color: aquamarine;
-      }
-      .container {
-        margin: auto;
-      }
-      .tombol {
-        width: 700px;
-      }
-    </style>
+    <title>Tugas Praktikum UTS</title>
+    <link rel="stylesheet" href="style sheet/uts.css" />
+    <script src="Java Script/jquery.js"></script>
   </head>
   <body>
-    <div class="container">
-      <h1>HELLO WORD</h1>
-      <img src="img/Sepriyan Gunawan.jpg" alt="Sepriyan Gunawan" />
-      <p>Nama : SEPRIYAN GUNAWAN</p>
-      <p>NIM : 41215746</p>
+    <nav>
+      <div style="margin: 0 auto; height: 50px; border: solid rgba(207, 118, 108, 0) 2px; width: 80%">
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#Project">Project</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="pembungkus">
+      <div id="home">
+        <div class="foto">
+          <img src="img/Sepriyan Gunawan.jpg" alt="Sepriyan Gunawan" />
+        </div>
+        <div class="lampu">
+          <p>Hi ...! My name is Sepriyan Gunawan I from Indramayu, I am a student of IKMI Cirebon</p>
+          <br />
+          <p>(41215746)</p>
+          <br />
+        </div>
+      </div>
+
+      <div id="Project" style="display: none">
+        <h2>TUGAS PWEB</h2>
+        <div class="tugas">
+          <h2>TUGAS PWEB</h2>
+          <div><a href="p03/index.html">Table Sederhana</a></div>
+          <div><a href="p03css/index.html">Table CSS</a></div>
+          <div><a href="p03jquery/index.html">Table jquery</a></div>
+          <div><a href="p03form-lv1/index.html">From -lv1</a></div>
+          <div><a href="p04css-basic/index.html">From Css</a></div>
+          <div><a href="p05-jquery-delete/index.html">p05-jquery-delete</a></div>
+          <div><a href="p04-static-kop-surat/index.html">p04-static-kop-surat</a></div>
+          <div><a href="p05-jquery-sliding/index.html">p05-jquery-sliding</a></div>
+          <div><a href="p06-spa-menu/index.html">p06-spa-menu</a></div>
+        </div>
+      </div>
+      <div id="Contact" style="display: none">
+        <div class="wa">
+          <div class="ijo">
+            <img src="img/wa.png" alt="wa" />
+            <br />
+            <p>089660206186</p>
+          </div>
+          <div class="merah">
+            <img src="img/ig.png" alt="ig" />
+            <p><a href="https://www.instagram.com/kuencreas/?hl=id">@kuencreas</a></p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="tombol">
-      <button onclick="alert('hello Word and happy learning')">Hello Word</button>
-      <button><a href="p03/index.html">Table Sederhana</a></button>
-      <button><a href="p03css/index.html">Table CSS</a></button>
-      <button><a href="p03jquery/index.html">Table jquery</a></button>
-      <a href="p03form-lv1/index.html"><button>From Sederhana</button></a>
-      <a href="p04css-basic/index.html"><button>From Css</button></a>
-      <a href="p04css-renponsive/index.html"><button>From Css-Responsive</button></a>
-      <a href="p05-jquery-delete/index.html"><button>p05-jquery-delete</button></a>
-      <a href="p04-static-kop-surat/index.html"><button>p04-static-kop-surat</button></a>
-      <a href="p05-jquery-sliding/index.html"><button>p05-jquery-sliding</button></a>
-      <a href="p06-spa-menu/index.html"><button>p06-spa-menu</button></a>
-    </div>
+    <script src="Java Script/spa-menu.js"></script>
   </body>
 </html>
